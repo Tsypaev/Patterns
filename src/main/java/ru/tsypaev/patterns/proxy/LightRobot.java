@@ -1,4 +1,4 @@
-package ru.tsypaev.patterns.ProxyPattern.robot;
+package ru.tsypaev.patterns.proxy;
 
 public class LightRobot implements Robot {
 
@@ -16,7 +16,6 @@ public class LightRobot implements Robot {
 
     public void damage(int points) {
         if (this.points - points < 0) {
-            System.out.println(this.name + " is suicide!");
             this.points=0;
         } else {
             this.points -= points;

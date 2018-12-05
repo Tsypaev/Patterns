@@ -1,4 +1,4 @@
-package ru.tsypaev.patterns.ProxyPattern.robot;
+package ru.tsypaev.patterns.proxy;
 
 public interface Robot {
 
