@@ -5,7 +5,7 @@ public class LightRobot implements Robot {
     private String name;
     private int points;
 
-    LightRobot(int points, String name) {
+    public LightRobot(int points, String name) {
         this.points = points;
         this.name = name;
     }
